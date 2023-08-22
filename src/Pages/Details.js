@@ -2,6 +2,7 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
+import { Helmet } from "react-helmet";
 
 import { services } from "../Data/servicesData"; // Import the services data from NaseSluzby
 
@@ -13,13 +14,16 @@ const Details = () => {
 
   return (
     <>
+      <Helmet>
+        <title>{service.title} | AKZ Advokátní kancelář Zrnovský</title>
+      </Helmet>
       <Header background={true} title={service ? service.title : "Details"} />
       <main>
         <div className="details max-width">
           <div className="details-wrapper">
             {service && (
               <>
-                <div className="text-side">
+                <div className={service.infoList ? "text-side" : ""}>
                   {service.text.map((text, index) => (
                     <p key={index} className="details-text">
                       {text}

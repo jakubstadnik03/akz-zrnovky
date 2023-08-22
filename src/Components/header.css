@@ -207,7 +207,7 @@
 /* Navigation Styles */
 .bottom-header-wrapper nav ul {
   position: absolute;
-  top: 80px; /* Adjust as needed */
+  top: -475px; 
   right: 0;
   width: 100vw;
   z-index: 1;

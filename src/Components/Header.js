@@ -43,7 +43,11 @@ const Header = ({ background, title }) => {
         <div className="bottom-header-wrapper max-width">
           <Link to="/" className="index-top">
             {" "}
-            <img src={logo} alt="logo advokátní kancelář AKZ" />
+            <img
+              src={logo}
+              alt="logo advokátní kancelář AKZ"
+              style={{ width: "300px" }}
+            />
           </Link>
           <input
             className="menu-btn index-top"

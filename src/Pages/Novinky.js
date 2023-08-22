@@ -5,7 +5,7 @@ import Header from "../Components/Header";
 const Novinky = () => {
   return (
     <>
-      <Header background={true} />
+      <Header background={true} title="Novinky" />
       <main></main>
       <Footer />
     </>

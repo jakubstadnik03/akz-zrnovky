@@ -2,10 +2,13 @@ import "./App.css";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import { Link } from "react-router-dom";
-
+import { Helmet } from "react-helmet";
 function App() {
   return (
     <>
+      <Helmet>
+        <title>AKZ Advokátní kancelář Zrnovský</title>
+      </Helmet>
       <Header />
       <main
         className="main-image"
@@ -15,8 +18,9 @@ function App() {
       >
         <div className="main-wrapper">
           <h1 className="main-title">
-            Mgr. Jan Zrnovský a <br />
-            Mgr. et Mgr. Lucie Zrnovská, advokátní kancelář
+            <div className="main-title-large">Advokátní kancelář </div>
+            <br /> Mgr. Jan Zrnovský, advokát <br />
+            Mgr. et Mgr. Lucie Zrnovská, advokátka
           </h1>
           <hr className="line" />
           <h2>Rodinná firma s více než 40 letou praxí v oboru.</h2>

@@ -4,8 +4,10 @@ export const services = [
     linkTo: "/nase-sluzby/rodinne-pravo",
     link: "rodinne-pravo",
     text: [
-      "První základní částí právní agendy, kterou se advokátní kancelář zabývá, je úprava rodinných vztahů, a to zejména rozvod manželství, úprava práv a povinností rodičů k nezl. dětem, určení vyživovací povinnosti rodiče vůči nezl. dítěti či určení vyživovací povinnosti manžela vůči druhému manželovi. Stejně tak advokátní kancelář pravidelně zajišťuje soudní určení otcovství či případné popření otcovství k nezl. dítěti, či soudní vymáhání nákladů neprovdané matky.",
-      "Druhou významnou stránkou právní praxe advokátní kanceláře je úprava rodinně-majetkových vztahů, tedy především úprava společného jmění manželů před uzavřením manželství, případné vypořádání společného jmění manželů před i po rozvodu manželství mimosoudní dohodou či prostřednictvím soudu, tzv. žalobou o vypořádání společného jmění manželů. Do této části dále patří oblast dědického práva, a to zejména zastupování pozůstalých v dědickém řízení či zastupování pozůstalých před soudem v případných dědických sporech.",
+      "Naše advokátní kancelář se dlouhodobě specializuje na právní pomoc klientům v oblasti rodinného práva. ",
+      "Rozvod manželství nebo rozpad partnerství, z něhož se narodily nezletilé děti, je pro každého člověka nelehkou životní zkušeností. Právě z toho důvodu je důležité a mnohdy zásadní, aby klientem zvolený advokát byl schopen poskytnout právní pomoc dle konkrétních a individuálních požadavků každého klienta tak, aby klientovi nelehkou životní situaci co nejvíce usnadnil.   ",
+      "Naše advokátní kancelář zastupuje klienty v rozvodovém řízení ve věci úpravy péče, výživy a styku s nezletilými dětmi pro dobu před a po rozvodu manželství. Zabýváme se rovněž právní pomocí v oblasti určení a změny vyživovací povinnosti, jakož i zastupováním klientů v otázkách určování a popírání otcovství, nezrušitelného osvojení, v otázkách týkajících se neshod rodičů ve věcech ro nezletilé dětí významných (jako je například očkování nebo volba školského zařízení) či celou řadou dalších opatrovnických sporů.",
+      "Do naší opatrovnické agendy patří rovněž i zastupování klientů v oblastech omezení svéprávnosti a jmenování opatrovníka nesvéprávné osoby, případně změn osoby opatrovníka. ",
     ],
     infoListTitle:
       "V rámci poskytování služeb v pododvětví rodinného práva se zabýváme zejména:",
@@ -44,7 +46,9 @@ export const services = [
     linkTo: "/nase-sluzby/trestni-pravo",
     link: "trestni-pravo",
     text: [
-      "Od roku 2006 rozšířila advokátní kancelář svou činnost o poskytování právní pomoci v průběhu trestního řízení. Jednak a především se kancelář zabývá ochranou práv poškozeného či oběti v průběhu trestního řízení, když je Mgr. Jan Zrnovský jako zmocněnec poškozených zapsán v registru poskytovatelů pomoci obětem trestných činů vedeném Ministerstvem vnitra ČR jako první subjekt v Libereckém kraji, a to od počátku účinnosti zákona o obětech trestných činů (od roku 2013). Obdobně kancelář pravidelně poskytuje obhajobu obviněných/obžalovaných v průběhu celého trestního řízení, včetně právních služeb souvisejících se zhodnocením možného trestněprávního postihu protiprávních jednání.",
+      "Zahájení trestního řízení je všeobecně považováno za nejradikálnější zásah státní moci do života každého jednotlivce, jehož práva a svobody jsou náhle a citelně omezena z rozhodnutí státního orgánu nebo naopak byla poškozena v důsledku spáchání trestného činu. S ohledem na zvláštní charakter trestního práva je v zásadním zájmu osob zúčastněných trestního řízení, aby dosáhly včasné a účinné právní pomoci poskytované v trestním procesu pouze advokátem. ",
+      "Advokát vystupuje v trestním právu jako obhájce, a to v případech, kdy poskytuje právní pomoc osobě obviněného či obžalovaného ze spáchání trestného činu nebo naopak působí jako zmocněnec, a to v případech, kdy v trestním řízení chrání zájmy poškozených či obětí trestného činu. ",
+      "Naše advokátní kancelář pravidelně přebírá zastoupení našich klientů v obou případech zmíněného postavení jednotlivce v trestním procesu a poskytuje právní pomoc v trestním řízení již od samého jeho počátku až po skončení trestního řízení či následně v případném řízení o mimořádných opravných prostředcích (dovolání, ústavní stížnost). ",
     ],
     infoListTitle:
       "V rámci poskytování služeb v pododvětví občanského práva se zabýváme zejména:",
@@ -101,18 +105,21 @@ export const services = [
     title: "Pomoc obětem trestních činů",
     linkTo: "/nase-sluzby/pomoc-obetem-trestnych-cinnu",
     link: "pomoc-obetem-trestnych-cinnu",
-    text: [""],
-    infoListTitle:
-      "V rámci poskytování služeb v pododvětví občanského práva se zabýváme zejména:",
-    infoList: [""],
+    text: [
+      "Jako zásadní naše advokátní kancelář považuje poskytnutí právní pomoci obětem trestných činů, když právě poškození jsou v důsledku nepředpokládaných dějů předmětem zkoumání orgánů činných v trestním řízení, aniž by takový postup mohli svou vůlí jakkoli ovlivnit. V tomto ohledu jsou poškození znevýhodněným účastníkem trestního řízení, které jejich práva omezilo neočekávaně a za současné existence následků, které jim byly v důsledku trestné činnosti způsobeny. ",
+      "Právě reparace škodních následků, které poškození prožívají jako oběti trestné činnosti, je základním úkolem právní pomoci, jež je naší kanceláři poskytována, ať již jde o domáhání se náhrady škody způsobené trestnou činností (např. v důsledku dopravní nehody) nebo náhrady nemajetkové újmy, jež obětem vznikla v důsledku tělesných i duševních zranění nebo ochrany práva poškozených na zachování jejich soukromí.",
+      "Naše kancelář má, jako zmocněnec poškozených, právo se účastnit všech úkonů trestního řízení a poškozený v důsledku takového postupu získá podrobný přehled o tom, jak trestní řízení probíhá. ",
+      "Mimo výše uvedené bylo praxí osvědčeno, že zmocněnec mnohdy pro poškozené představuje neocenitelnou psychickou podporu a jakéhosi spojencem, který s poškozeným absolvuje celé trestní řízení a je mu velkou oporou (s ohledem na odbornost a profesní zkušenost). Z toho důvodu jsou zákonem o obětech trestných činů definovány tzv. zvlášť zranitelné oběti, jejichž zastupování je plně hrazeno z prostředků státního rozpočtu. ",
+    ],
   },
   {
     title: "Pracovní právo",
     linkTo: "/nase-sluzby/pracovni-pravo",
     link: "pracovni-pravo",
-    text: [""],
-    infoListTitle: "",
-    infoList: [""],
+    text: [
+      "Agenda spočívající v zakládání, modifikaci či ukončení pracovněprávních vztahů patří k tradičním složkám výkonu advokátní praxe naší kanceláře. ",
+      "V případě otázek sporných pracovních vztahů poskytuje naše kancelář právní pomoc řadě právnických osob (obchodních společností, státních organizací i neziskovým subjektům) a samozřejmě i fyzickým osobám – zaměstnanců – kteří čelí tlakům svých zaměstnavatelů na změnu či ukončení jejich pracovního poměru. ",
+    ],
   },
   {
     title: "Generální praxe",

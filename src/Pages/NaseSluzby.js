@@ -3,6 +3,8 @@ import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import { Link } from "react-router-dom";
 import { services } from "../Data/servicesData";
+import { Helmet } from "react-helmet";
+
 const NaseSluzby = () => {
   const Box = ({ data }) => {
     const linkTo = `/nase-sluzby/${data.link}`;
@@ -10,13 +12,18 @@ const NaseSluzby = () => {
     return (
       <Link to={linkTo} className="sluzba-box">
         <h2>{data.title}</h2>
-        {/* You can add more components here to display other data */}
       </Link>
     );
   };
 
   return (
     <>
+      <Helmet>
+        <title>
+          Specializace naší advokátní kanceláře | AKZ Advokátní kancelář
+          Zrnovský
+        </title>
+      </Helmet>
       <Header
         background={true}
         title={"Specializace naší advokátní kanceláře"}
