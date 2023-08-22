@@ -9,7 +9,9 @@ const ContactInfo = () => {
         <div className="contact-together">
           <div className="contact-item">
             <span>Jméno:</span>{" "}
-            <span className="contact-name-side">Mgr. Jan Zrnovský</span>
+            <span className="contact-name-side">
+              Mgr. Jan Zrnovský, advokát
+            </span>
           </div>
           <div className="contact-item">
             <span>Email:</span>{" "}
@@ -21,13 +23,13 @@ const ContactInfo = () => {
             <span>Jméno:</span>
             <span className="contact-name-side">
               {" "}
-              Mgr. et Mgr. Lucie Zrnovská
+              Mgr. et Mgr. Lucie Zrnovská, advokátka
             </span>
           </div>
 
           <div className="contact-item">
             <span>Email:</span>{" "}
-            <span className="contact-name-side">luciezrnovska@email.cz</span>
+            <span className="contact-name-side">lucie.zrnovska@email.cz</span>
           </div>
         </div>
         <div className="contact-item">

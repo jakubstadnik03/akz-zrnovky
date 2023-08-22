@@ -276,3 +276,10 @@
 
     }
 }
+
+@media (max-width: 840px){
+.details-wrapper {
+    flex-direction: column;
+    margin-top: 10px;
+}
+}

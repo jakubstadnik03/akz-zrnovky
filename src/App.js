@@ -26,7 +26,7 @@ function App() {
           <h2>Rodinná firma s více než 40 letou praxí v oboru.</h2>
           <Link to="/kontakt" className="btn-nav">
             <button className="btn">
-              Kontaktujte nás <span class="arrow-icon "></span>
+              Kontaktujte nás <span className="arrow-icon "></span>
             </button>
           </Link>
         </div>

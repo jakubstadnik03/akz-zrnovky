@@ -3,9 +3,9 @@ import "./footer.css";
 import { Link } from "react-router-dom";
 import logo from "../logo.svg";
 
-export default function Footer() {
+export default function Footer({ bottom }) {
   return (
-    <footer className="footer">
+    <footer className={`footer  ${bottom ? "footer-bottom" : ""}`}>
       <div className="max-width">
         <div className="row">
           <img
@@ -38,9 +38,6 @@ export default function Footer() {
               <li>
                 <Link to="/nase-sluzby/pracovni-pravo">Pracovní právo</Link>
               </li>
-              <li>
-                <Link to="/nase-sluzby/generalni-praxe">Generální praxe</Link>
-              </li>
             </ul>
           </div>
           <div className="footer-col">
@@ -59,7 +56,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a href="mailto:luciezrnovska@email.cz" className="mail">
-                    luciezrnovska@email.cz
+                    lucie.zrnovska@email.cz
                   </a>
                 </li>
                 <li>
@@ -91,7 +88,7 @@ export default function Footer() {
               </li>
               <li className="date">
                 <span className="date-left">Pátek</span>
-                <span>8.00 do 16.30 hodin</span>
+                <span>8.00 do 12.30 hodin</span>
               </li>
             </ul>
           </div>

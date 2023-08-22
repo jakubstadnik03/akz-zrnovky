@@ -21,10 +21,6 @@ const ContactForm = () => {
           <label>Zpráva pro nás</label>
           <textarea></textarea>
         </div>
-        <div className="form-group">
-          <label>Vyberte datum schůzky</label>
-          <input type="date" />
-        </div>
         <button type="submit">Odeslat</button>
       </form>
     </div>

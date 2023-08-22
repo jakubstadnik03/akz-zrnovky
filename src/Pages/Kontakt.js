@@ -16,7 +16,7 @@ const Kontakt = () => {
         <ContactForm />
         <ContactInfo />
       </main>
-      <Footer />
+      <Footer bottom={true} />
     </>
   );
 };

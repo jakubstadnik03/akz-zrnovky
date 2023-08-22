@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'Lato';
   src: local('Lato'),
-       url('./fonts/Lato-Regular.ttf') format('ttf')
+       url('./fonts/Lato-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'PlayfairDisplay';
   src: local('PlayfairDisplay'),
-       url('./fonts/PlayfairDisplay-VariableFont_wght.ttf') format('ttf')
+       url('./fonts/PlayfairDisplay-VariableFont_wght.ttf')format('truetype')
 }
 body{
   margin: 0;

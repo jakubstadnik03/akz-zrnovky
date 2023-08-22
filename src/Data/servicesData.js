@@ -121,13 +121,4 @@ export const services = [
       "V případě otázek sporných pracovních vztahů poskytuje naše kancelář právní pomoc řadě právnických osob (obchodních společností, státních organizací i neziskovým subjektům) a samozřejmě i fyzickým osobám – zaměstnanců – kteří čelí tlakům svých zaměstnavatelů na změnu či ukončení jejich pracovního poměru. ",
     ],
   },
-  {
-    title: "Generální praxe",
-    linkTo: "/nase-sluzby/generalni-praxe",
-    link: "generalni-praxe",
-    text: [""],
-    infoListTitle: "",
-    infoList: [""],
-  },
-  // Add more services as needed
 ];

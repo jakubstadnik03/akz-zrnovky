@@ -79,6 +79,9 @@
 	opacity: 0.8;
 	padding-left: 8px;
 }
+.footer-bottom{
+	margin-top: 100px;
+}
 .footer-col .social-links a{
 	display: inline-block;
 	background-color: var(--dark-gray);

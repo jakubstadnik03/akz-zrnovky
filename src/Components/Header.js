@@ -27,7 +27,7 @@ const Header = ({ background, title }) => {
             </li>
             <li>
               <a href="mailto:luciezrnovska@email.cz" className="mail">
-                luciezrnovska@email.cz
+                lucie.zrnovska@email.cz
               </a>
             </li>
             <li>
@@ -73,7 +73,7 @@ const Header = ({ background, title }) => {
                 <Link to="/nase-sluzby">Naše služby</Link>
               </li>
               <li>
-                <Link to="/novinky">Novinky</Link>
+                <Link to="/novinky">Aktuality</Link>
               </li>
               <li>
                 <Link to="/kontakt">Kontakt</Link>

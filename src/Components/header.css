@@ -174,9 +174,7 @@
         top: 0;
     }
     
-    .contact ul li a::before, .address::before{
-        display: none;
-    }
+    
     .bottom-header nav ul {
         position: absolute;
         opacity: 0;
@@ -248,3 +246,8 @@
 }
 
 }
+@media (max-width: 860px){
+    .contact ul li a::before, .address::before, .top-header-wrapper ul li a::before{
+        display: none !important;
+    }
+    }
