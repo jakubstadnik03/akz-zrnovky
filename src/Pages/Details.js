@@ -64,7 +64,7 @@ const Details = () => {
           </div>
         </div>
       </main>
-      <Footer />
+      <Footer bottom={true} />
     </>
   );
 };

@@ -117,6 +117,9 @@
 .footer-col h4::before{
     bottom: -5px
 }
+.footer-bottom{
+	margin-top: 0;
+}
 
 }
 @media(max-width: 574px){
