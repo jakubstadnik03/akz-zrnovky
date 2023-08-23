@@ -8,19 +8,19 @@ const Aktuality = () => {
     const linkTo = `/aktuality/${data.link}`;
 
     return (
-      <Link to={linkTo} className="aktuality-box">
-        <div className="box-content">
+      <div className="box-content aktuality-box">
+        <Link to={linkTo}>
           <h2 className="box-title">{data.title}</h2>
-          <p className="box-short-text">{data.shortText}</p>
-          <Link to={linkTo}>
-            <button className="btn btn-black btn-aktuality">
-              Přečíst celý článek
-              <span class="arrow-icon arrow-icon-dark"></span>
-            </button>
-          </Link>
-          <span className="box-date">{data.date}</span>
-        </div>
-      </Link>
+        </Link>
+        <p className="box-short-text">{data.shortText}</p>
+        <Link to={linkTo}>
+          <button className="btn btn-black btn-aktuality">
+            Přečíst celý článek
+            <span className="arrow-icon arrow-icon-dark"></span>
+          </button>
+        </Link>
+        <span className="box-date">{data.date}</span>
+      </div>
     );
   };
   return (

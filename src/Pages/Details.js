@@ -35,7 +35,7 @@ const Details = () => {
                         <div key={index} className="details-article">
                           <h2>{item.title}</h2>
                           {item.paragraph.map((paragraph, index) => (
-                            <p>{paragraph}</p>
+                            <p key={index}>{paragraph}</p>
                           ))}
                         </div>
                       ))}
@@ -45,7 +45,7 @@ const Details = () => {
                   <Link to="/kontakt" className="btn-nav">
                     <button className="btn btn-black">
                       Kontaktujte nás{" "}
-                      <span class="arrow-icon arrow-icon-dark"></span>
+                      <span className="arrow-icon arrow-icon-dark"></span>
                     </button>
                   </Link>
                 </div>

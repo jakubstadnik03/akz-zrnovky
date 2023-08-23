@@ -31,7 +31,7 @@ const ONas = () => {
             klientů v soudním řízení a před orgány veřejné moci.
           </p>
         </div>
-        <p style={{ fontWeight: "bold" }} className="onas-content onas-text">
+        <p className="onas-content onas-text">
           V současné době poskytují právní pomoc v advokátní kanceláři dva
           advokáti, a to Mgr. Jan Zrnovský a Mgr. et Mgr. Lucie Zrnovská.{" "}
         </p>

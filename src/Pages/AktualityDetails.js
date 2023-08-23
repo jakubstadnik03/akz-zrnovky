@@ -25,7 +25,7 @@ const AktualityDetils = () => {
         <p>{aktualita.text}</p>
         <Link to="/kontakt">
           <button className="btn btn-black">
-            Kontaktujte nás <span class="arrow-icon arrow-icon-dark"></span>
+            Kontaktujte nás <span className="arrow-icon arrow-icon-dark"></span>
           </button>
         </Link>
       </main>
