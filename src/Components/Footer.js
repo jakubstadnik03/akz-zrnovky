@@ -8,11 +8,9 @@ export default function Footer({ bottom }) {
     <footer className={`footer  ${bottom ? "footer-bottom" : ""}`}>
       <div className="max-width">
         <div className="row">
-          <img
-            src={logo}
-            alt="logo advokátní kancelář AKZ"
-            className="footer-col footer-logo"
-          />
+          <Link to="/" className="footer-col footer-logo">
+            <img src={logo} alt="logo advokátní kancelář AKZ" />
+          </Link>
           <div className="footer-col">
             <h4>Naše služby</h4>
             <ul>
@@ -60,9 +58,14 @@ export default function Footer({ bottom }) {
                   </a>
                 </li>
                 <li>
-                  <address className="address">
+                  <a
+                    href="https://www.google.com/maps/place/Mgr.+Jan+Zrnovský/@50.7690427,15.0553878,17z/data=!3m1!4b1!4m6!3m5!1s0x4709369ee05d345f:0x7605682481bff95c!8m2!3d50.7690427!4d15.0579627!16s%2Fg%2F1tghn99w?entry=ttu"
+                    className="address"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     nám. Dr. E. Beneše 4/12, Liberec 460 01
-                  </address>
+                  </a>
                 </li>
               </ul>
             </div>

@@ -31,9 +31,14 @@ const Header = ({ background, title }) => {
               </a>
             </li>
             <li>
-              <address className="address">
+              <a
+                href="https://www.google.com/maps/place/Mgr.+Jan+Zrnovský/@50.7690427,15.0553878,17z/data=!3m1!4b1!4m6!3m5!1s0x4709369ee05d345f:0x7605682481bff95c!8m2!3d50.7690427!4d15.0579627!16s%2Fg%2F1tghn99w?entry=ttu"
+                className="address"
+                target="_blank"
+                rel="noreferrer"
+              >
                 nám. Dr. E. Beneše 4/12, Liberec 460 01
-              </address>
+              </a>
             </li>
           </ul>
         </div>
@@ -73,7 +78,7 @@ const Header = ({ background, title }) => {
                 <Link to="/nase-sluzby">Naše služby</Link>
               </li>
               <li>
-                <Link to="/novinky">Aktuality</Link>
+                <Link to="/aktuality">Aktuality</Link>
               </li>
               <li>
                 <Link to="/kontakt">Kontakt</Link>

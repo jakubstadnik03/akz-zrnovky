@@ -35,6 +35,7 @@
     padding: .5em;
     color: inherit;
     color: var(--white);
+    transition: ease-in .2s;
 }
 .header ul li a:hover{
     opacity: 0.8;
