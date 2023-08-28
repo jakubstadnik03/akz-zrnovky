@@ -23,7 +23,9 @@ function App() {
             Mgr. et Mgr. Lucie Zrnovská, advokátka
           </h1>
           <hr className="line" />
-          <h2>Rodinná firma s více než 40 letou praxí v oboru.</h2>
+          <h2 style={{ fontWeight: "bold" }}>
+            Rodinná firma s více než 40 letou praxí v oboru.
+          </h2>
           <Link to="/kontakt" className="btn-nav">
             <button className="btn">
               Kontaktujte nás <span className="arrow-icon "></span>

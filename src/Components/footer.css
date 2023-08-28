@@ -74,6 +74,7 @@
 }
 .contact ul li a{
     padding-bottom: 13px;
+	max-width: 239px;
 }
 .footer-col ul li a:hover{
 	opacity: 0.8;
