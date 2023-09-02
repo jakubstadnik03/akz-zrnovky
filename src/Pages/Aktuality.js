@@ -28,7 +28,7 @@ const Aktuality = () => {
       <Header background={true} title="Aktuality" />
       <main>
         <div className="aktuality max-width">
-          <h3>Přinášíme vám nové aktuality ze světa advokacie</h3>
+          <h3>Přinášíme Vám aktuality z advokátní praxe:</h3>
           {aktuality.map((service, index) => (
             <Box key={index} data={service} />
           ))}

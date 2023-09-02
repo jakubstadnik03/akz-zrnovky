@@ -24,9 +24,7 @@ export default function Footer({ bottom }) {
                 <Link to="/nase-sluzby/trestni-pravo">Trestní právo</Link>
               </li>
               <li>
-                <Link to="/nase-sluzby/obchodne-pravni-agenda">
-                  Obchodně právní agenda
-                </Link>
+                <Link to="/nase-sluzby/smluvni-agenda">smluvni agenda</Link>
               </li>
               <li>
                 <Link to="/nase-sluzby/pomoc-obetem-trestnych-cinu">
@@ -64,14 +62,14 @@ export default function Footer({ bottom }) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    nám. Dr. E. Beneše 4/12, Liberec 460 01
+                    nám. Dr. Edvarda Beneše 4/12, Liberec III- Jeřáb 460 07
                   </a>
                 </li>
               </ul>
             </div>
           </div>
           <div className="footer-col">
-            <h4>Provozní doba kanceláře</h4>
+            <h4>Provozní doba advokátní kanceláře</h4>
             <ul>
               <li className="date">
                 <span className="date-left">Pondělí</span>

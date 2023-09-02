@@ -37,7 +37,7 @@ const Header = ({ background, title }) => {
                 target="_blank"
                 rel="noreferrer"
               >
-                nám. Dr. E. Beneše 4/12, Liberec 460 01
+                nám. Dr. Edvarda Beneše 4/12, Liberec III- Jeřáb 460 07
               </a>
             </li>
           </ul>
