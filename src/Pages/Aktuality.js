@@ -3,6 +3,8 @@ import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import { Link } from "react-router-dom";
 import { aktuality } from "../Data/aktualityData";
+import { Helmet } from "react-helmet";
+
 const Aktuality = () => {
   const Box = ({ data }) => {
     const linkTo = `/aktuality/${data.link}`;
@@ -25,6 +27,12 @@ const Aktuality = () => {
   };
   return (
     <>
+      <Helmet>
+        <title>
+          Aktaulity z advokátní praxe | AKZ Advokátní kancelář Zrnovský &
+          Zrnovská
+        </title>
+      </Helmet>
       <Header background={true} title="Aktuality" />
       <main>
         <div className="aktuality max-width">

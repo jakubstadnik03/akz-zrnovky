@@ -21,7 +21,7 @@ const NaseSluzby = () => {
       <Helmet>
         <title>
           Specializace naší advokátní kanceláře | AKZ Advokátní kancelář
-          Zrnovský
+          Zrnovský & Zrnovská
         </title>
       </Helmet>
       <Header

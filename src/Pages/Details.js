@@ -9,13 +9,14 @@ import { services } from "../Data/servicesData"; // Import the services data fro
 const Details = () => {
   const { title } = useParams();
 
-  // Find the service that matches the title parameter
   const service = services.find((service) => service.link === title);
 
   return (
     <>
       <Helmet>
-        <title>{service.title} | AKZ Advokátní kancelář Zrnovský</title>
+        <title>
+          {service.title} | AKZ Advokátní kancelář Zrnovský & Zrnovská
+        </title>
       </Helmet>
       <Header background={true} title={service ? service.title : "Details"} />
       <main>

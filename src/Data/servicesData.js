@@ -6,10 +6,14 @@ export const services = [
     text: [
       "Naše advokátní kancelář se dlouhodobě specializuje na právní pomoc klientům v oblasti rodinného práva. ",
       "Rozvod manželství nebo rozpad partnerství, z něhož se narodily nezletilé děti, je pro každého člověka nelehkou životní zkušeností. Právě z toho důvodu je důležité a mnohdy zásadní, aby klientem zvolený advokát byl schopen poskytnout právní pomoc dle konkrétních a individuálních požadavků každého klienta tak, aby klientovi nelehkou životní situaci co nejvíce usnadnil.   ",
-      "Naše advokátní kancelář zastupuje klienty v rozvodovém řízení ve věci úpravy péče, výživy a styku s nezletilými dětmi pro dobu před a po rozvodu manželství. Zabýváme se rovněž právní pomocí v oblasti určení a změny vyživovací povinnosti, jakož i zastupováním klientů v otázkách určování a popírání otcovství, nezrušitelného osvojení, v otázkách týkajících se neshod rodičů ve věcech pro nezletilé dětí významných (jako je například očkování nebo volba školského zařízení), či celou řadou dalších opatrovnických sporů.",
-      "Do naší opatrovnické agendy patří rovněž i zastupování klientů v oblastech omezení svéprávnosti a jmenování opatrovníka nesvéprávné osoby, případně změn osoby opatrovníka. ",
+      // "Kromě výše uvedených řízení, je nutno nástroji rodinného práva řešit i tyto zásadní otázky: určení a popření otcovství k nezletilému dítěti, nahrazení vůle rodiče ve věci pro nezletilé dítě významné, spočívající například v udělení souhlasu za druhého rodiče s vycestováním do zahraničí, změnou či určením školského zařízení či nahrazením souhlasu se zdravotními úkony.",
+      // "Dále naše opatrovnická agenda zahrnuje řízení o nezrušitelné osvojení dítěte, určení výživného pro neprovdanou matku a výše příspěvku na některé náklady neprovdané matky, jakož i například řízení o udělení souhlasu za nezletilého v situacích, kdy tento souhlas je za nezletilého povinen učinit soud.",
+      // "Rodinné právo v sobě nepřímo zahrnuje i řešení otázek souvisejících se vznikem, trváním a ukončením manželství a úpravou práv a povinností, které vůči sobě manželé navzájem mají. Jedná se například o problematiku určení výše výživného pro nerozvedeného manžela/ manželku, shodně jako určení výše výživného pro již rozvedeného manžela/ manželku.",
+      // "V souvislosti s ukončením manželství je nezbytné vyřešit rovněž i úpravu a vypořádání vzájemných majetkových vztahů, které vznikly za trvání manželství, tzv. společné jmění manželů.",
+      "Naše advokátní kancelář zastupuje klienty v rozvodovém řízení ve věci úpravy péče, výživy a styku s nezletilými dětmi pro dobu před a po rozvodu manželství. Zabýváme se rovněž právní pomocí v oblasti určení a změny vyživovací povinnosti, jakož i zastupováním klientů v otázkách určování a popírání otcovství, nezrušitelného osvojení, v otázkách týkajících se neshod rodičů ve věcech pro nezletilé děti významných (jako je například očkování nebo volba školského zařízení), či celou řadou dalších opatrovnických sporů.",
+      "Do naší opatrovnické agendy patří rovněž i zastupování klientů v oblastech omezení svéprávnosti a jmenování opatrovníka nesvéprávné osobě, případně změny osoby opatrovníka. ",
       "Agenda rodinného práva se soustředí i na určení výše výživného pro neprovdanou matku a úhradu některých nákladů neprovdané matce.",
-      "V rámci opatrovnické agendy se zabýváme i vzájemnými nároky mezi manžely za trvání manželství a po rozpadu manželství, stejně jako nároky vzniklými mezi nesezdanými partnery.",
+      "V rámci opatrovnické agendy se zabýváme i vzájemnými nároky mezi manžely za trvání manželství a po rozpadu manželství, stejně jako vzájemnými nároky mezi nesezdanými partnery.",
     ],
     infoListTitle:
       "V rámci poskytování služeb v oblasti rodinného práva se zabýváme zejména následující problematikou",
@@ -34,21 +38,23 @@ export const services = [
     linkTo: "/nase-sluzby/obcanske-pravo",
     link: "obcanske-pravo",
     text: [
-      "Velmi významnou oblastí právní pomoci, kterou se naše advokátní kancelář zabývá, je úprava majetkových vztahů mezi občany, zejména poté vztahů spočívajících ve vypořádání vzájemných majetkových nároků mezi rozvádějícími se manželi. Tedy zejména zrušení a vypořádání podílového spoluvlastnictví, případné zrušení a vypořádání podílového spoluvlastnictví prostřednictvím soudní žaloby, náhrada investic vložených do společného majetku prostřednictvím soudní žaloby, či náhrada škody, apod.",
+      "Velmi významnou oblastí právní pomoci, kterou se naše advokátní kancelář zabývá, je úprava majetkových vztahů mezi občany, zejména poté vztahů spočívajících ve vypořádání vzájemných majetkových nároků mezi rozvádějícími se manželi.",
       "Ve sporech o vypořádání společného jmění manželů nabízíme našim klientům cenné zkušenosti ohledně vypořádání investic z výlučného vlastnictví jednoho z manželů do společného jmění a rovněž vypořádání vnosů ze společného jmění do výlučného vlastnictví jednoho z manželů.",
       "Naše klienty pravidelně zastupujeme ve věcech týkajících se vypořádání společného jmění, a to jak dohodou, tak v řízení před soudem.",
       "Současně zastupujeme klienty v řízeních o zrušení a vypořádání podílového spoluvlastnictví, v řízeních o vydání bezdůvodného obohacení a v celé škále mimosoudního, soudního a exekučního vymáhání dlužných částek.",
       "Naše advokátní kancelář se rovněž intenzivně zabývá spory, které spočívající v uplatnění nároků našich na náhradu škody a nemajetkové újmy v občanském soudním řízení. Lhostejno, zda se jedná o nároky na náhradu škody a nemajetkové újmy, která byla našemu klientovi způsobena trestným činem nebo se například jedná o škodu vzniklou z vadného plnění či nesplnění podmínky.",
       "Nabízíme právní pomoc ve sporech o neplatnost právního jednání, ve sporech o určení práva a při přípravě a sepisu negatorních žalob.",
       "Velkou část naší občanskoprávní agendy tvoří rovněž zastupování klientů v dědickém řízení. Zejména při projednání pozůstalosti, uplatnění pohledávek za dědictvím, zpracování žalob o určení dědického práva a o určení dědické posloupnosti, případně žalob o neplatností závěti.",
+      "Naše advokátní kancelář se rovněž intenzivně zabývá spory, které spočívají v uplatnění nároků našich klientů na náhradu škody a nemajetkové újmy v občanském soudním řízení. Lhostejno, zda se jedná o nároky na náhradu škody a nemajetkové újmy, která byla našemu klientovi způsobena trestným činem nebo se například jedná o škodu vzniklou z vadného plnění či nesplnění podmínky.",
+      "Zejména při projednání pozůstalosti, uplatnění pohledávek za dědictvím, zpracování žalob o určení dědického práva a o určení dědické posloupnosti, případně žalob o neplatnosti závěti.",
     ],
     infoListTitle:
       "V rámci poskytování služeb v oblasti občanského práva se zabýváme zejména:",
     infoList: [
-      "Majetkové vztahy mezi občany",
-      "Spory mezi občany",
+      "majetkové vztahy mezi občany",
+      "spory mezi občany",
       "náhrada škody a nemajetkové újmy a její uplatňování v soudním řízení",
-      "Dědické právo",
+      "dědické právo",
       "vypořádání společného jmění manželů dohodou a před soudem",
       "bezdůvodné obohacení",
       "zrušení a vypořádání podílového spoluvlastnictví dohodou a před soudem",
@@ -72,7 +78,7 @@ export const services = [
     infoList: [
       "obhajoba obviněných v trestním řízením a ochrana jejich práv",
       "zastupování poškozených v trestním řízení a ochrana jejich práv",
-      "zastupování obviněného v přípravném řízení před policejním orgánem",
+      "zastupování obviněných v přípravném řízení před policejním orgánem",
       "zastupování klientů v přestupkovém řízení",
       "zastupování klientů v trestním řízení před soudy prvého stupně, před soudem v odvolacím a dovolacím řízení a v řízení před Ústavním soudem",
       "zastupování klientů v řízení o podmíněném propuštění z výkonu trestu odnětí svobody, jednání se státním zástupcem o dohodě o vině a trestu",
@@ -96,33 +102,6 @@ export const services = [
 
       "Obchodním společnostem poskytujeme právní pomoc i v navazujících právních odvětvích, zejména v oblasti pracovního a občanského práva.",
     ],
-    textList: [
-      {
-        title: "Kupní smlouva",
-        paragraph: [
-          "Uzavření kupní smlouvy, obsah a náležitosti, plnění z kupní smlouvy",
-          "Závazky smluvních stran, porušování a neplnění závazků z kupní smlouvy, reklamace, koupě movitých věcí, prodej a koupě nemovitostí včetně bytů",
-        ],
-      },
-      {
-        title: "Darovací smlouva",
-        paragraph: [
-          "Uzavření darovací smlouvy, závazek darování, přijetí daru, darování a vrácení daru, porušování a neplnění závazků z darovací smlouvy, darování peněz, darování movitých i nemovitých věcí",
-        ],
-      },
-      {
-        title: "Nájemní smlouva",
-        paragraph: [
-          "Nájmy bytů a nájmy nebytových prostor, nájemní smlouvy a smlouvy podnájemní (nájemní smlouva k bytu, nájem nebytových prostor, nájem nemovitostí, nájemní smlouvy v bytových družstvech a společenství vlastníků jednotek), spory mezi majiteli a nájemníky, výpovědi z nájmu bytu, vymáhání dluhů od neplatičů, soudní řízení o neplatnost výpovědi a související vztahy, řešení sporů vyplývajících z nájmů nebytových prostor",
-        ],
-      },
-      {
-        title: "Smlouva o převodu nemovitosti",
-        paragraph: [
-          "Zpracování a uzavření smlouvy, návrh na vklad do katastru nemovitostí, úschova kupní ceny, prodej a koupě domů, pozemků, převody bytů – bytových jednotek, nebytových prostor",
-        ],
-      },
-    ],
     infoListTitle:
       "V rámci poskytování služeb v oblasti smluvní agendy se zabýváme zejména:",
     infoList: [
@@ -137,11 +116,11 @@ export const services = [
     ],
   },
   {
-    title: "Pomoc obětem trestních činů",
-    linkTo: "/nase-sluzby/pomoc-obetem-trestnych-cinnu",
-    link: "pomoc-obetem-trestnych-cinnu",
+    title: "Pomoc obětem trestných činů",
+    linkTo: "/nase-sluzby/pomoc-obetem-trestnych-cinu",
+    link: "pomoc-obetem-trestnych-cinu",
     text: [
-      "Jako zásadní naše advokátní kancelář považuje poskytnutí právní pomoci obětem trestných činů, když právě poškození jsou v důsledku nepředpokládaných dějů předmětem zkoumání orgánů činných v trestním řízení, aniž by takový postup mohli svou vůlí jakkoli ovlivnit. V tomto ohledu jsou poškození znevýhodněným účastníkem trestního řízení, které jejich práva omezilo neočekávaně a za současné existence následků, které jim byly v důsledku trestné činnosti způsobeny. ",
+      "Mimo výše uvedené bylo praxí osvědčeno, že zmocněnec mnohdy pro poškozené představuje neocenitelnou psychickou podporu a jakéhosi spojence, když právě poškození jsou v důsledku nepředpokládaných dějů předmětem zkoumání orgánů činných v trestním řízení, aniž by takový postup mohli svou vůlí jakkoli ovlivnit. V tomto ohledu jsou poškození znevýhodněným účastníkem trestního řízení, které jejich práva omezilo neočekávaně a za současné existence následků, které jim byly v důsledku trestné činnosti způsobeny. ",
       "Právě reparace škodních následků, které poškození prožívají jako oběti trestné činnosti, je základním úkolem právní pomoci, jež je naší kanceláři poskytována, ať již jde o domáhání se náhrady škody způsobené trestnou činností (např. v důsledku dopravní nehody) nebo náhrady nemajetkové újmy, jež obětem vznikla v důsledku tělesných i duševních zranění nebo ochrany práva poškozených na zachování jejich soukromí.",
       "Naše kancelář má, jako zmocněnec poškozených, právo se účastnit všech úkonů trestního řízení a poškozený v důsledku takového postupu získá podrobný přehled o tom, jak trestní řízení probíhá. ",
       "Mimo výše uvedené bylo praxí osvědčeno, že zmocněnec mnohdy pro poškozené představuje neocenitelnou psychickou podporu a jakéhosi spojencem, který s poškozeným absolvuje celé trestní řízení a je mu velkou oporou (s ohledem na odbornost a profesní zkušenost). Z toho důvodu jsou zákonem o obětech trestných činů definovány tzv. zvlášť zranitelné oběti, jejichž zastupování je plně hrazeno z prostředků státního rozpočtu. ",
@@ -151,7 +130,7 @@ export const services = [
     infoList: [
       "zastupování poškozeného v řízením před policejním orgánem a v řízení před soudem",
       "uplatnění nároku poškozeného na náhradu škody a nemajetkové újmy v trestním řízení",
-      "uplatnění a vymáhání nároku poškozeného na náhradu škody a nemajetkové újmy v občanskoprávním řízení, příprava a sepis nároku na paušální peněžitou pomoc oběti trestného u Ministerstva spravedlnosti České republiky",
+      "uplatnění a vymáhání nároku poškozeného na náhradu škody a nemajetkové újmy v občanskoprávním řízení, příprava a sepis nároku na paušální peněžitou pomoc oběti trestného činu u Ministerstva spravedlnosti České republiky",
       "zastupování zvlášť zranitelných obětí trestného činu",
     ],
   },
@@ -160,7 +139,7 @@ export const services = [
     linkTo: "/nase-sluzby/pracovni-pravo",
     link: "pracovni-pravo",
     text: [
-      "Pracovní právo je právním odvětvím, které je částečně regulováno zákonem a od této zákonné úpravy se nelze odchýlit, částečně se však jedná o oblast práva, v němž mohou strany zčásti sjednat vzájemná práva a povinnosti.",
+      "Pracovní právo je právním odvětvím, které je částečně regulováno zákonem a od této zákonné úpravy se nelze odchýlit, částečně se však jedná o oblast práva, v němž mohou strany sjednat vzájemná práva a povinnosti.",
 
       "Právní pomoc nabízíme oběma stranám pracovního poměru, tedy zaměstnancům a zaměstnavatelům.",
 
@@ -168,7 +147,7 @@ export const services = [
 
       "Pravidelně se v naší advokátní praxi věnujeme i zastupování klientů v soudním řízení ve sporech, které mají svůj původ v pracovněprávních vztazích.",
 
-      "Zejména poskytujeme právní pomoc v řízeních týkajících se neplatnosti výpovědi z pracovního poměru, v řízeních o náhradu škody a nemajetkové újmy způsobeném zaměstnanci zaměstnavatelem při výkonu práce, v řízeních o náhradě škody a nemajetkové újmy způsobené zaměstnavateli zaměstnancem při výkonu práce, řízení o náhradě škody a nemajetkové újmy v důsledku pracovního úrazu, řízení o náhradě škody a nemajetkové újmy v důsledku nemoci z povolání a mnohých dalších sporech týkajících se škodních událostí při výkonu práce.",
+      "Zejména poskytujeme právní pomoc v řízeních týkajících se neplatnosti výpovědi z pracovního poměru, v řízeních o náhradu škody a nemajetkové újmy způsobené zaměstnanci zaměstnavatelem při výkonu práce, v řízeních o náhradě škody a nemajetkové újmy způsobené zaměstnavateli zaměstnancem při výkonu práce, řízení o náhradě škody a nemajetkové újmy v důsledku pracovního úrazu, řízení o náhradě škody a nemajetkové újmy v důsledku nemoci z povolání a v mnohých dalších sporech týkajících se škodních událostí při výkonu práce.",
 
       "Dále se zabýváme ochranou práv zaměstnanců a zaměstnavatelů v důsledku mobbingu a bossingu.",
 

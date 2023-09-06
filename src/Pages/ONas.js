@@ -7,7 +7,7 @@ const ONas = () => {
   return (
     <>
       <Helmet>
-        <title>O naší firmě | AKZ Advokátní kancelář Zrnovský</title>
+        <title>O naší firmě | AKZ Advokátní kancelář Zrnovský & Zrnovská</title>
       </Helmet>
       <Header background={true} title={"O nás"} />
       <main className="max-width">
@@ -22,15 +22,15 @@ const ONas = () => {
           <p>
             Poskytujeme právní pomoc našim klientům v tíživých a nesnadných
             životních situacích, a to na základě dlouholeté praxe v advokacii a
-            cenných zkušeností v poskytováním právní pomoci, zastupováním
-            klientů v soudním řízení a před orgány veřejné moci.
+            cenných zkušeností v poskytování právní pomoci, zastupování klientů
+            v soudním řízení a před orgány veřejné moci.
           </p>
           <p>
             V současné době poskytují právní pomoc v advokátní kanceláři dva
             advokáti, a to Mgr. Jan Zrnovský a Mgr. et Mgr. Lucie Zrnovská.{" "}
           </p>
         </div>
-
+        <hr className="line" />
         <div className="onas-wrapper">
           <section className="onas-content">
             <h2>Mgr. et Mgr. Lucie Zrnovská, advokátka</h2>
@@ -43,37 +43,10 @@ const ONas = () => {
               agendy.
             </p>
             <p>
-              Obor rodinného práva však fakticky zahrnuje řešení všech životních
-              milníků ve vývoji nejen nezletilých dětí, ale celé rodiny při
-              rozpadu partnerství rodičů.{" "}
-            </p>
-            <p>
-              Kromě výše uvedených řízení, je nutno nástroji rodinného práva
-              řešit i tyto zásadní otázky: určení a popření otcovství k
-              nezletilému dítěti, nahrazení vůle rodiče ve věci pro nezletilé
-              dítě významné, spočívající například v udělení souhlasu za druhého
-              rodiče s vycestováním do zahraničí, změnou či určením školského
-              zařízení či nahrazením souhlasu se zdravotními úkony.{" "}
-            </p>
-            <p>
-              Dále naše opatrovnická agenda zahrnuje řízení o nezrušitelné
-              osvojení dítěte, určení výživného pro neprovdanou matku a výše
-              příspěvku na některé náklady neprovdané matky, jakož i například
-              řízení o udělení souhlasu za nezletilého v situacích, kdy tento
-              souhlas je za nezletilého povinen učinit soud.{" "}
-            </p>
-            <p>
-              Rodinné právo v sobě nepřímo zahrnuje i řešení otázek
-              souvisejících se vznikem, trváním a ukončením manželství a úpravou
-              práv a povinností, které vůči sobě manželé navzájem mají. Jedná se
-              například o problematiku určení výše výživného pro nerozvedeného
-              manžela/ manželku, shodně jako určení výše výživného pro již
-              rozvedeného manžela/ manželku.{" "}
-            </p>
-            <p>
-              V souvislosti s ukončením manželství je nezbytné vyřešit rovněž i
-              úpravu a vypořádání vzájemných majetkových vztahů, které vznikly
-              za trvání manželství, tzv. společné jmění manželů.{" "}
+              Kromě výše uvedeného se Mgr. et Mgr. Lucie Zrnovská zabývá i
+              agendou související s uspořádáním vzájemných majetkových poměrů po
+              rozvodu manželství, jakož i uspořádáním těchto vztahů po rozpadu
+              partnerství v případě nesezdaných partnerů.{" "}
             </p>
             <p>
               Mgr. et Mgr. Lucie Zrnovská poskytuje právní pomoc v anglickém a
@@ -88,14 +61,16 @@ const ONas = () => {
               především na trestní právo, a to jak z pohledu obhajoby klientů v
               trestním řízení, tak v poskytování právní pomoci a zastupování
               klientů, kteří se stali obětí trestného činu. Mgr. Jan Zrnovský
-              poskytuje právní pomoc a právní poradenství již od přípravného
-              řízení až po řízení dovolací.{" "}
+              poskytuje právní pomoc a právní poradenství od přípravného řízení
+              až po trestní řízení dovolací.
             </p>
 
             <p>
-              Mgr. Jan Zrnovský byl první advokát v Libereckém kraji, který byl
-              zapsán v seznamu poskytovatelů právní pomoci obětem trestných
-              činů, který je veden Ministerstvem spravedlnosti České republiky.
+              Mgr. Jan Zrnovský byl prvním advokátem v Libereckém kraji, který
+              byl zapsán v seznamu poskytovatelů právní pomoci obětem trestných
+              činů, vedeném Ministerstvem spravedlnosti České republiky. V tomto
+              seznamu je Mgr. Jan Zrnovský veden i dosud a právní pomoc
+              poskytuje obětem trestných činů i tzv. zvlášť zranitelným obětem.
             </p>
             <p>
               Mgr. Jan Zrnovský poskytuje právní pomoc v anglickém a
@@ -103,7 +78,9 @@ const ONas = () => {
             </p>
           </section>
         </div>
+
         <div className="onas-content" style={{ textAlign: "center" }}>
+          <hr className="line" />
           <p>
             Oba advokáti mají cenné zkušenosti v zastupování klientů v
             občansko-právních sporech, tedy v oblasti tzv. sporné agendy. Jedná
@@ -124,10 +101,12 @@ const ONas = () => {
           <p>
             Ve všech oblastech námi poskytované právní pomoci se snažíme vyjít
             vstříc individuálním požadavkům našich klientů a poskytnout jim
-            právní pomoc na vysoké profesní úrovni, založené na rozsáhlé
+            právní pomoc na vysoké profesionální úrovni, založené na rozsáhlé
             zkušenosti z působení v advokacii.
           </p>
+          <hr className="line" />
         </div>
+
         <section className="onas-bottom-article">
           <h2>Z historie naší advokátní kanceláře</h2>
           <p>

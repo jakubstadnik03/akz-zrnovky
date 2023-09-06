@@ -15,7 +15,9 @@ const AktualityDetils = () => {
   return (
     <>
       <Helmet>
-        <title>{aktualita.title} | AKZ Advokátní kancelář Zrnovský</title>
+        <title>
+          {aktualita.title} | AKZ Advokátní kancelář Zrnovský & Zrnovská
+        </title>
       </Helmet>
       <Header
         background={true}

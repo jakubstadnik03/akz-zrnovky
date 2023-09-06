@@ -135,6 +135,7 @@
     color: var(--white);
     margin: 20px;
     max-width: 292px;
+    min-height: 182px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -262,11 +263,11 @@
   }
   .contact-name-side a{
     color: inherit;
-    transition: .1s ease-in;
+    transition: .2s ease-in;
   }
   .contact-name-side a:hover{
     color: var(--light-brown);
-    opacity: .3;
+    opacity: .8;
   }
   
   /* Style for the box title */
@@ -349,6 +350,10 @@
     .details-text {
         margin-bottom: 0;
            margin-top: 5px;
+           margin: 0.2em;
+    }
+    .list-side {
+      margin: 0.2em;
     }
     .contact-wrapper {
 

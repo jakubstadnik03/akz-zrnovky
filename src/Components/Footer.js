@@ -24,7 +24,7 @@ export default function Footer({ bottom }) {
                 <Link to="/nase-sluzby/trestni-pravo">Trestní právo</Link>
               </li>
               <li>
-                <Link to="/nase-sluzby/smluvni-agenda">smluvni agenda</Link>
+                <Link to="/nase-sluzby/smluvni-agenda">Smluvni agenda</Link>
               </li>
               <li>
                 <Link to="/nase-sluzby/pomoc-obetem-trestnych-cinu">

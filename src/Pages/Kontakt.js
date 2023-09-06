@@ -9,7 +9,9 @@ const Kontakt = () => {
   return (
     <>
       <Helmet>
-        <title>Kontaktní údaje | AKZ Advokátní kancelář Zrnovský</title>
+        <title>
+          Kontaktní údaje | AKZ Advokátní kancelář Zrnovský & Zrnovská
+        </title>
       </Helmet>
       <Header background={true} title={"Kontaktujte nás"} />
       <main className="contact-wrapper">

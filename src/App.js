@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>AKZ Advokátní kancelář Zrnovský</title>
+        <title>AKZ Advokátní kancelář Zrnovský & Zrnovská</title>
       </Helmet>
       <Header />
       <main

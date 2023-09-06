@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
     box-sizing: border-box;
 	text-decoration: none;
@@ -10,7 +10,7 @@
 }
 .footer{
     color: var(--white);
-    padding: 20px 0;
+
     background-color: var(--dark-blue);
 }
 .footer-logo{
@@ -67,7 +67,10 @@
 	font-size: 16px;
     color: inherit;
 	text-decoration: none;
-	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 1px;
+font-weight: 300;
+font-style: normal;
 	display: block;
 	transition: all 0.3s ease;
    
@@ -106,6 +109,7 @@
     display: flex;
     justify-content: space-between;
     max-width: 220px;
+	padding-top: 5px;
 }
 /*responsive*/
 @media(max-width: 767px){
