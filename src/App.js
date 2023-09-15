@@ -3,6 +3,7 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import { Analytics } from "@vercel/analytics/react";
 function App() {
   return (
     <>
@@ -34,6 +35,7 @@ function App() {
         </div>
       </main>
       <Footer />
+      <Analytics />
     </>
   );
 }
