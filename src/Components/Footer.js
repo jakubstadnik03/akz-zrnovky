@@ -12,7 +12,7 @@ export default function Footer({ bottom }) {
             <img src={logo} alt="logo advokátní kancelář AKZ" />
           </Link>
           <div className="footer-col">
-            <h4>Naše služby</h4>
+            <h3>Naše služby</h3>
             <ul>
               <li>
                 <Link to="/nase-sluzby/rodinne-pravo">Rodinné právo</Link>
@@ -37,7 +37,7 @@ export default function Footer({ bottom }) {
             </ul>
           </div>
           <div className="footer-col">
-            <h4>Kontakt</h4>
+            <h3>Kontakt</h3>
             <div className="contact">
               <ul>
                 <li>
@@ -69,7 +69,7 @@ export default function Footer({ bottom }) {
             </div>
           </div>
           <div className="footer-col">
-            <h4>Provozní doba advokátní kanceláře</h4>
+            <h3>Provozní doba advokátní kanceláře</h3>
             <ul>
               <li className="date">
                 <span className="date-left">Pondělí</span>
