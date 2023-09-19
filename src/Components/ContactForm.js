@@ -31,13 +31,13 @@ const ContactForm = () => {
       <form ref={form} onSubmit={sendEmail}>
         <div className="form-group">
           <label>Jméno</label>
-          <input type="text" name="user_name" placeholder="Jméno a příjimení" />
+          <input type="text" name="user_name" placeholder="Jméno a příjmení" />
         </div>
         <div className="form-group">
           <label>Email</label>
           <input
             type="email"
-            placeholder="example@example.cz"
+            placeholder="vzor@vzor.cz"
             name="user_email"
             required
           />

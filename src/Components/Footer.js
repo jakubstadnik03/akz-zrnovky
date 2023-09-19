@@ -8,10 +8,14 @@ export default function Footer({ bottom }) {
     <footer className={`footer  ${bottom ? "footer-bottom" : ""}`}>
       <div className="max-width">
         <div className="row">
-          <Link to="/" className="footer-col footer-logo">
-            <img src={logo} alt="logo advokátní kancelář AKZ" />
+          <Link to="/" className="footer-col footer-logo col-logo">
+            <img
+              src={logo}
+              alt="logo AKZ advokátní kancelář Zrnovský & Zrnovská"
+              style={{ width: "300px", height: "95px" }}
+            />
           </Link>
-          <div className="footer-col">
+          <div className="footer-col col-services">
             <h3>Naše služby</h3>
             <ul>
               <li>
@@ -36,7 +40,7 @@ export default function Footer({ bottom }) {
               </li>
             </ul>
           </div>
-          <div className="footer-col">
+          <div className="footer-col col-contact">
             <h3>Kontakt</h3>
             <div className="contact">
               <ul>
@@ -68,7 +72,7 @@ export default function Footer({ bottom }) {
               </ul>
             </div>
           </div>
-          <div className="footer-col">
+          <div className="footer-col col-open">
             <h3>Provozní doba advokátní kanceláře</h3>
             <ul>
               <li className="date">

@@ -51,7 +51,7 @@ const Header = ({ background, title }) => {
             <img
               src={logo}
               alt="logo advokátní kancelář AKZ"
-              style={{ width: "300px" }}
+              style={{ width: "300px", height: "95px" }}
             />
           </Link>
           <input
