@@ -30,11 +30,16 @@ const ContactForm = () => {
     <div className="contact-form">
       <form ref={form} onSubmit={sendEmail}>
         <div className="form-group">
-          <label>Jméno</label>
-          <input type="text" name="user_name" placeholder="Jméno a příjmení" />
+          <label htmlFor="user_name">Jméno</label>
+          <input
+            type="text"
+            name="user_name"
+            placeholder="Jméno a příjmení"
+            required
+          />
         </div>
         <div className="form-group">
-          <label>Email</label>
+          <label htmlFor="user_email">Email</label>
           <input
             type="email"
             placeholder="vzor@vzor.cz"
@@ -43,11 +48,16 @@ const ContactForm = () => {
           />
         </div>
         <div className="form-group">
-          <label>Telefon</label>
-          <input type="tel" placeholder="775 116 555 333" name="user_phone" />
+          <label htmlFor="user_phone">Telefon</label>
+          <input
+            type="tel"
+            placeholder="775 116 555 333"
+            name="user_phone"
+            required
+          />
         </div>
         <div className="form-group">
-          <label>Zpráva pro nás</label>
+          <label htmlFor="message">Zpráva pro nás</label>
           <textarea
             placeholder="Zde se nás můžete zeptat na cokoliv a napsat, o jakou službu by jste měli zájem"
             rows="4"

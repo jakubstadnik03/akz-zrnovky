@@ -251,4 +251,8 @@
     .contact ul li a::before, .address::before, .top-header-wrapper ul li a::before{
         display: none !important;
     }
+    .subject-title{
+        margin-left: 20px;
+    margin-right: 20px;
+    }
     }

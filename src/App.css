@@ -206,14 +206,14 @@
   .list-side li::before {
     content: "";
     display: block;
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     border: 2px solid var(--light-brown);
     border-radius: 50%;
     position: absolute;
     left: 0;
-    margin-left: 12px;
-    margin-top: 3px;
+    margin-left: 15px;
+    margin-top: 2.5px;
   }
   
   .list-side li:nth-child(odd) {
@@ -310,7 +310,17 @@
   
 
   @media (max-width: 768px) {
-    
+    .list-side h3{
+      font-size: 20px;
+    }
+    .details .btn {
+      margin: 10px;
+      margin-left: 0;
+      
+  }
+  .text-side{
+    line-height: 1.1;
+  }
     .main-wrapper{
         padding-top: 5em;
     }
@@ -336,7 +346,7 @@
         margin: 0;
     }
     .onas-content p, .onas-bottom-article p {
-        line-height: 1.3;
+      line-height: 1.2;
     }
     .sluzba-box {
         max-width: none;
