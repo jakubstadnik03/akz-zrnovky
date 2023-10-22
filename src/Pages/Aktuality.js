@@ -42,7 +42,7 @@ const Aktuality = () => {
           ))}
         </div>
       </main>
-      <Footer />
+      <Footer bottom={true} />
     </>
   );
 };

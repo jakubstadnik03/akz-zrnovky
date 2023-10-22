@@ -1,47 +1,18 @@
 export const aktuality = [
   {
-    title: "Aktualita 1",
+    title: "Revoluční nález Ústavního soudu: Péče o děti přes vzdálenost",
     linkTo: "/aktuality/aktualita1",
     link: "aktualita1",
-    date: "23. srpna 2023",
+    date: "22. října 2023",
     shortText:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quisquam eum adipisci esse dolore harum unde aut dicta, ab sequi!",
+      "Ústavní soud České republiky mění pravidla střídavé péče o děti - nyní mohou oba rodiče pečovat o dítě i přes velkou vzdálenost.",
     text: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sint ullam minima labore dolorem sunt laboriosam repellat, at animi voluptate quia optio quos in esse nostrum cum aspernatur. Minus voluptatum necessitatibus id aspernatur laborum veniam nemo, voluptate, nam impedit sequi sit velit vero ad distinctio hic aliquam inventore fuga perspiciatis. Ut quisquam aspernatur dolorem, dolorum reiciendis nulla dignissimos sit accusantium tempore voluptatibus illum delectus, ullam sint quod nobis, perspiciatis doloremque aliquam nam asperiores? Placeat dolorem iusto autem! Itaque facere quos aliquid vero eveniet quibusdam quia tempore! Ex voluptatem vitae consectetur repellendus? Recusandae ducimus voluptatum magni? Expedita amet provident quas similique.",
-    ],
-  },
-
-  {
-    title: "Aktualita 2",
-    linkTo: "/aktuality/aktualita2",
-    link: "aktualita2",
-    date: "23. srpna 2023",
-    shortText:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quisquam eum adipisci esse dolore harum unde aut dicta, ab sequi!",
-    text: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sint ullam minima labore dolorem sunt laboriosam repellat, at animi voluptate quia optio quos in esse nostrum cum aspernatur. Minus voluptatum necessitatibus id aspernatur laborum veniam nemo, voluptate, nam impedit sequi sit velit vero ad distinctio hic aliquam inventore fuga perspiciatis. Ut quisquam aspernatur dolorem, dolorum reiciendis nulla dignissimos sit accusantium tempore voluptatibus illum delectus, ullam sint quod nobis, perspiciatis doloremque aliquam nam asperiores? Placeat dolorem iusto autem! Itaque facere quos aliquid vero eveniet quibusdam quia tempore! Ex voluptatem vitae consectetur repellendus? Recusandae ducimus voluptatum magni? Expedita amet provident quas similique.",
-    ],
-  },
-  {
-    title: "Aktualita 3",
-    linkTo: "/aktuality/aktualita3",
-    link: "aktualita3",
-    date: "23. srpna 2023",
-    shortText:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quisquam eum adipisci esse dolore harum unde aut dicta, ab sequi!",
-    text: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sint ullam minima labore dolorem sunt laboriosam repellat, at animi voluptate quia optio quos in esse nostrum cum aspernatur. Minus voluptatum necessitatibus id aspernatur laborum veniam nemo, voluptate, nam impedit sequi sit velit vero ad distinctio hic aliquam inventore fuga perspiciatis. Ut quisquam aspernatur dolorem, dolorum reiciendis nulla dignissimos sit accusantium tempore voluptatibus illum delectus, ullam sint quod nobis, perspiciatis doloremque aliquam nam asperiores? Placeat dolorem iusto autem! Itaque facere quos aliquid vero eveniet quibusdam quia tempore! Ex voluptatem vitae consectetur repellendus? Recusandae ducimus voluptatum magni? Expedita amet provident quas similique.",
-    ],
-  },
-  {
-    title: "Aktualita 4",
-    linkTo: "/aktuality/aktualita4",
-    link: "aktualita4",
-    date: "23. srpna 2023",
-    shortText:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quisquam eum adipisci esse dolore harum unde aut dicta, ab sequi!",
-    text: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sint ullam minima labore dolorem sunt laboriosam repellat, at animi voluptate quia optio quos in esse nostrum cum aspernatur. Minus voluptatum necessitatibus id aspernatur laborum veniam nemo, voluptate, nam impedit sequi sit velit vero ad distinctio hic aliquam inventore fuga perspiciatis. Ut quisquam aspernatur dolorem, dolorum reiciendis nulla dignissimos sit accusantium tempore voluptatibus illum delectus, ullam sint quod nobis, perspiciatis doloremque aliquam nam asperiores? Placeat dolorem iusto autem! Itaque facere quos aliquid vero eveniet quibusdam quia tempore! Ex voluptatem vitae consectetur repellendus? Recusandae ducimus voluptatum magni? Expedita amet provident quas similique.",
+      "Přelomový nález Ústavního soudu České republiky sp.zn.: I.ÚS 3522/22, ze dne 30. března 2023",
+      "Z iniciativy ústavní stížnosti, kterou jsme za našeho klienta podávali k Ústavnímu soudu, došlo ke zrušení rozhodnutí odvolacího soudu, který svěřil nezletilé dítě do péče matky, která se po rozpadu partnerství rodičů odstěhovala z původního bydliště dítěte několik stovek kilometrů daleko, na druhý konec republiky.",
+      "Ústavní soud konstatoval, že oba rodiče mají právo na péči o děti, a to i přes značnou vzdálenost jejich bydlišť.",
+      "V důsledku zásahu Ústavního soudu, došlo nakonec ke svěření nezletilého dítěte do tzv. asymetrické střídavé péče obou rodičů tak, aby dítě nemuselo navštěvovat dvě základní školy, což by pro něj bylo nadměrně zatěžující.",
+      "Ačkoliv tedy dítě střídá plnohodnotně prostředí obou rodičů, dochází pouze do jednoho školního zařízení.",
+      "Ústavní soud svým nálezem otevírá cestu dalším podobám aktuálního trendu střídavé péče, která již nemusí být nutně vždy v týdenním nebo čtrnáctidenním intervalu, nýbrž se proměňuje v závislosti na aktuálních potřebách nezletilého dítěte. ",
     ],
   },
 ];
