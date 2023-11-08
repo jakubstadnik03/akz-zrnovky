@@ -7,7 +7,9 @@ const ONas = () => {
   return (
     <>
       <Helmet>
-        <title>O naší firmě | AKZ Advokátní kancelář Zrnovský & Zrnovská</title>
+        <title>
+          Ski Chata Špičák Tanvald: Ubytování na Tanvaldském Špičáku
+        </title>
       </Helmet>
       <Header background={true} title={"O nás"} />
       <main className="max-width">

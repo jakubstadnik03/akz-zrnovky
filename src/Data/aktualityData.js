@@ -1,8 +1,22 @@
 export const aktuality = [
   {
+    title: "Oznámení o rekonstrukci a omezeném provozu advokátní kanceláře",
+    link: "omezeny-provoz-kancelare",
+    date: "8. listopadu 2023",
+    shortText:
+      "Upozornění na dočasně omezený provoz advokátní kanceláře AKZ kvůli rekonstrukci.",
+    text: [
+      "Vážení klienti,",
+      "dovolujeme si Vás informovat, že v termínu do 30. listopadu 2023 probíhá celková rekonstrukce naší advokátní kanceláře. Z toho důvodu je v prostorách naší advokátní kanceláře v současnosti omezený provoz. ",
+      " V této souvislosti Vás žádáme, abyste upřednostnili písemný kontakt prostřednictvím e-mailu, před kontaktem telefonickým, neboť Vašim telefonickým požadavkům nemusí být v důsledku absence personálu ihned vyhověno. ",
+      " Za Vaši vstřícnost Vám děkujeme. ",
+      " Advokátní kancelář ",
+    ],
+  },
+  {
     title: "Revoluční nález Ústavního soudu: Péče o děti přes vzdálenost",
-    linkTo: "/aktuality/aktualita1",
-    link: "aktualita1",
+    linkTo: "/aktuality/nalez-ustavniho-soudu",
+    link: "nalez-ustavniho-soudu",
     date: "22. října 2023",
     shortText:
       "Ústavní soud České republiky mění pravidla střídavé péče o děti - nyní mohou oba rodiče pečovat o dítě i přes velkou vzdálenost.",
@@ -14,5 +28,6 @@ export const aktuality = [
       "Ačkoliv tedy dítě střídá plnohodnotně prostředí obou rodičů, dochází pouze do jednoho školního zařízení.",
       "Ústavní soud svým nálezem otevírá cestu dalším podobám aktuálního trendu střídavé péče, která již nemusí být nutně vždy v týdenním nebo čtrnáctidenním intervalu, nýbrž se proměňuje v závislosti na aktuálních potřebách nezletilého dítěte. ",
     ],
+    downloadFile: "/aktuality-data/1-3522-22_3.rtf",
   },
 ];

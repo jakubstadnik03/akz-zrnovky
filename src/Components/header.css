@@ -105,6 +105,9 @@
     margin: auto;
     border-bottom: 3px solid var(--light-brown);
 }
+.title-width {
+    max-width: 900px;
+}
 .bottom-header .menu-btn {
     display: none;
   }

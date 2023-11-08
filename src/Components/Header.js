@@ -3,7 +3,7 @@ import "./header.css";
 import { Link } from "react-router-dom";
 import logo from "../logo.svg";
 
-const Header = ({ background, title }) => {
+const Header = ({ background, title, width }) => {
   const [isActive, setIsActive] = useState(false);
 
   const handleClick = (event) => {
@@ -86,7 +86,11 @@ const Header = ({ background, title }) => {
             </ul>
           </nav>
         </div>
-        {title && <h1 className="subject-title">{title}</h1>}
+        {title && (
+          <h1 className={width ? "subject-title title-width" : "subject-title"}>
+            {title}
+          </h1>
+        )}
       </div>
     </header>
   );

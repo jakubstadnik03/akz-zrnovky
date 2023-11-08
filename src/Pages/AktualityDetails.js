@@ -10,7 +10,7 @@ import { aktuality } from "../Data/aktualityData"; // Import the services data f
 const AktualityDetils = () => {
   const { title } = useParams();
   const downloadFile = () => {
-    const fileURL = "/aktuality-data/1-3522-22_3.rtf"; // Replace with the correct path to your RTF file
+    const fileURL = aktualita.downloadFile; // Replace with the correct path to your RTF file
     saveAs(fileURL, "document.rtf");
   };
 
@@ -25,6 +25,7 @@ const AktualityDetils = () => {
         </title>
       </Helmet>
       <Header
+        width={true}
         background={true}
         title={aktualita ? aktualita.title : "Details"}
       />
@@ -36,14 +37,16 @@ const AktualityDetils = () => {
             </p>
           );
         })}
-        <button
-          className="btn btn-black"
-          style={{ marginRight: "20px" }}
-          onClick={downloadFile}
-        >
-          Stáhnout celý dokument
-          <span className="arrow-icon arrow-icon-dark"></span>
-        </button>
+        {aktualita.downloadFile && (
+          <button
+            className="btn btn-black"
+            style={{ marginRight: "20px" }}
+            onClick={downloadFile}
+          >
+            Stáhnout celý dokument
+            <span className="arrow-icon arrow-icon-dark"></span>
+          </button>
+        )}
 
         <Link to="/kontakt">
           <button className="btn btn-black">
