@@ -1,17 +1,34 @@
 import React, { useState } from "react";
 import "./PhotoGallery.css";
-import Carousel, { Modal, ModalGateway } from "react-images";
 
 const PhotoGallery = ({ photos }) => {
-  const [lightboxIsOpen, setLightboxIsOpen] = useState(false);
-  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const toggleLightbox = (index) => {
-    setLightboxIsOpen(!lightboxIsOpen);
-    setSelectedIndex(index);
+  const openLightbox = (index) => {
+    setCurrentImageIndex(index);
+    setLightboxOpen(true);
   };
 
-  const images = photos.map((photo) => ({ src: photo.thumbnail }));
+  const closeLightbox = () => {
+    setLightboxOpen(false);
+  };
+
+  const handleClickOutside = (e) => {
+    if (e.target.classList.contains("lightbox")) {
+      closeLightbox();
+    }
+  };
+
+  const showNext = () => {
+    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % photos.length);
+  };
+
+  const showPrev = () => {
+    setCurrentImageIndex(
+      (prevIndex) => (prevIndex - 1 + photos.length) % photos.length
+    );
+  };
 
   return (
     <div className="gallery-container">
@@ -20,7 +37,7 @@ const PhotoGallery = ({ photos }) => {
           <div
             className="gallery-col"
             key={index}
-            onClick={() => toggleLightbox(index)}
+            onClick={() => openLightbox(index)}
           >
             <img
               src={photo.fullsize}
@@ -31,20 +48,24 @@ const PhotoGallery = ({ photos }) => {
         ))}
       </div>
 
-      <ModalGateway>
-        {lightboxIsOpen ? (
-          <Modal onClose={toggleLightbox}>
-            <Carousel
-              currentIndex={selectedIndex}
-              views={images.map((x) => ({
-                ...x,
-                srcset: x.srcSet,
-                caption: x.title,
-              }))}
-            />
-          </Modal>
-        ) : null}
-      </ModalGateway>
+      {lightboxOpen && (
+        <div className="lightbox" onClick={handleClickOutside}>
+          <span className="lightbox-close" onClick={closeLightbox}>
+            &times;
+          </span>
+          <img
+            src={photos[currentImageIndex].thumbnail}
+            alt="Enlarged pic"
+            className="lightbox-image"
+          />
+          <span className="lightbox-prev" onClick={showPrev}>
+            &lsaquo;
+          </span>
+          <span className="lightbox-next" onClick={showNext}>
+            &rsaquo;
+          </span>
+        </div>
+      )}
     </div>
   );
 };
