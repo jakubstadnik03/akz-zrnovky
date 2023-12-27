@@ -61,7 +61,16 @@ p{
   margin: .2em;
 }
 
+.link{
+  color: #242239;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: ease-in .2s;
 
+}
+.link:hover{
+  color: #C69D36;
+}
 main {
 
   margin-left: auto;

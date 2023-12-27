@@ -7,6 +7,7 @@ import NaseSluzby from "./Pages/NaseSluzby";
 import Aktuality from "./Pages/Aktuality";
 import Kontakt from "./Pages/Kontakt";
 import Details from "./Pages/Details";
+import Fotogalerie from "./Pages/Fotogalerie";
 import AktualityDetails from "./Pages/AktualityDetails";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -22,6 +23,7 @@ root.render(
         <Route path="/nase-sluzby" element={<NaseSluzby />}></Route>
         <Route path="/nase-sluzby/:title" element={<Details />} />
         <Route path="/aktuality/:title" element={<AktualityDetails />} />
+        <Route path="/fotogalerie-kancelare" element={<Fotogalerie />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
