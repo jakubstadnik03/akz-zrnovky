@@ -133,22 +133,20 @@ function Fotogalerie() {
         <p className="aktualita-text">
           V srdci Liberce, s překrásným výhledem na majestátní radnici, se nyní
           nachází zcela nově zrekonstruovaná advokátní kancelář AKZ Zrnovský &
-          Zrnovská. Po pečlivé renovaci, kterou vedla renomovaná interiérová
-          designérka Lenka Stádníková, tyto prostory nyní představují vrchol
-          profesionality a elegance. Spojení právních služeb nejvyšší kvality a
+          Zrnovská. Po pečlivé renovaci, kterou vedla zkušená interiérová
+          designérka Lenka Stádníková, tyto prostory nyní představují
+          profesionalitu a eleganci. Spojení právních služeb nejvyšší kvality a
           interiéru, který je dílem designérského studia Lenka Design, je
           zárukou, že klientská schůzka se stává nejen obchodní záležitostí, ale
-          i skutečným estetickým zážitkem.
+          i příjemným estetickým zážitkem.
         </p>
 
         <p className="aktualita-text">
-          Rekonstrukce kanceláře představuje dokonalou symbiózu funkcionalismu a
-          estetiky, která je základem filozofie Lenka Design. Každý prvek
-          interiéru byl pečlivě vybírán tak, aby podtrhl prestiž advokátní
-          kanceláře AKZ Zrnovský & Zrnovská a zároveň přinesl klientům komfort a
-          vizuální harmonii. Naše kancelář je nyní místem, kde moderní design
-          podporuje jasné myšlení a strategické plánování, což je základ úspěchu
-          v právních záležitostech.
+          Každý prvek interiéru byl pečlivě vybírán tak, aby podtrhl prestiž
+          advokátní kanceláře AKZ Zrnovský & Zrnovská a zároveň přinesl klientům
+          komfort a vizuální harmonii. Naše kancelář je nyní místem, kde moderní
+          design podporuje jasné myšlení a strategické plánování, což je základ
+          úspěchu v právních záležitostech.
         </p>
         <p className="aktualita-text">
           Pokud i vy toužíte po interiéru, který bude odrazem vaší
