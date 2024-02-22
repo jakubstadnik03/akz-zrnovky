@@ -131,36 +131,13 @@ function Fotogalerie() {
       />
       <main className="max-width aktualita-content">
         <p className="aktualita-text">
-          V srdci Liberce, s překrásným výhledem na majestátní radnici, se nyní
-          nachází zcela nově zrekonstruovaná advokátní kancelář AKZ Zrnovský &
-          Zrnovská. Po pečlivé renovaci, kterou vedla zkušená interiérová
-          designérka Lenka Stádníková, tyto prostory nyní představují
-          profesionalitu a eleganci. Spojení právních služeb nejvyšší kvality a
-          interiéru, který je dílem designérského studia Lenka Design, je
-          zárukou, že klientská schůzka se stává nejen obchodní záležitostí, ale
-          i příjemným estetickým zážitkem.
-        </p>
-
-        <p className="aktualita-text">
-          Každý prvek interiéru byl pečlivě vybírán tak, aby podtrhl prestiž
-          advokátní kanceláře AKZ Zrnovský & Zrnovská a zároveň přinesl klientům
-          komfort a vizuální harmonii. Naše kancelář je nyní místem, kde moderní
-          design podporuje jasné myšlení a strategické plánování, což je základ
-          úspěchu v právních záležitostech.
+        Vážení klienti, 
         </p>
         <p className="aktualita-text">
-          Pokud i vy toužíte po interiéru, který bude odrazem vaší
-          profesionalitě a individuality, navštivte{" "}
-          <a
-            href="https://www.lenkadesign.cz/"
-            className="link"
-            target="_blank"
-          >
-            Lenka Design
-          </a>
-          . Ať už hledáte inspiraci pro kancelář, obchodní prostory, či domov,
-          Lenka Design vám nabízí široké portfolio služeb od konzultací po
-          kompletní realizaci interiérů.
+        dovolujeme si Vás přivítat v naší advokátní kanceláři, která na sklonku roku 2023 prošla výraznou proměnou ve formě rozsáhlé rekonstrukce. 
+        </p>
+        <p className="aktualita-text">
+        Věříme, že se Vy, naši klienti, budete při řešení rozličných životních situací cítit v naší advokátní kanceláři co nejpříjemněji. 
         </p>
 
         <Link to="/kontakt">
