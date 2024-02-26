@@ -1,5 +1,21 @@
 export const aktuality = [
   {
+    title: "Změna provozní doby během jarních prázdnin v Libereckém kraji",
+    link: "provozni-doba-o-jarnich-prazdninach",
+    date: "26. února 2024",
+    shortText:
+      "Omezený provoz advokátní kanceláře 26.2.-1.3.2024, Po-Čt do 14:00, Pá do 12:00",
+    text: [
+    "  Vážení klienti, ",
+
+"v době jarních prázdnin, které jsou vyhlášeny v Libereckém kraji v termínu od 26.2.2024- 1.3.2024, je provozní doba advokátní kanceláře zkrácena od pondělí do čtvrtka do 14.00 hodin a v pátek do 12.00 hodin.",
+"Prosím, kontaktujte naší advokátní kancelář telefonicky ve výše uvedeném čase, případně se na nás obracejte písemně.",
+"Děkujeme za pochopení a přejeme klidný poslední únorový týden.",
+"Tým AKZ"
+
+    ],
+  },
+  {
     title: "Oznámení o rekonstrukci a omezeném provozu advokátní kanceláře",
     link: "omezeny-provoz-kancelare",
     date: "8. listopadu 2023",
