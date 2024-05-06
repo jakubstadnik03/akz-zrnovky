@@ -1,5 +1,18 @@
 export const aktuality = [
   {
+    title: "Omezený provoz advokátní kanceláře",
+    link: "omezeny-provoz",
+    date: "6. května 2024",
+    shortText:
+      "Omezený provoz advokátní kanceláře: 6. května 2024 - 24. května 2024",
+    text: [
+" Vážení klienti,",
+" dovolujeme si Vás informovat o omezení provozní doby naší advokátní kanceláře v termínu od 6. května 2024- 24. května 2024.",      
+ "Prosím upřednostněte především písemný kontakt s naší advokátní kanceláří.",  
+"Za pochopení nastalé mimořádné situace děkujeme",
+    ],
+  },
+  {
     title: "Změna provozní doby během jarních prázdnin v Libereckém kraji",
     link: "provozni-doba-o-jarnich-prazdninach",
     date: "26. února 2024",
