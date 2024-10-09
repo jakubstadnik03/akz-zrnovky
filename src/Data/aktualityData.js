@@ -1,5 +1,19 @@
 export const aktuality = [
   {
+  "title": "Omezený provoz advokátní kanceláře v říjnu",
+  "link": "omezeny-provoz-rijen",
+  "date": "9. října 2024",
+  "shortText": "Omezený provoz advokátní kanceláře: 22. října 2024 - 25. října 2024",
+  "text": [
+    "Vážení klienti,",
+    "v období od 22. 10. 2024 do 25. 10. 2024 bude advokátní kancelář v důsledku absence našeho sekretariátu fungovat v omezeném provozu.",
+    "Prosím upřednostněte písemný kontakt s naší advokátní kanceláří, například prostřednictvím e-mailu, které jsou uvedeny na těchto webových stránkách.",
+    "Současně prosím vezměte na vědomí, že v termínu od 29. 10. 2024 - 1. 11. 2024 čerpají advokáti naší advokátní kanceláře dovolenou, nebudou tedy k zastižení. V tomto termínu je Vám plně k dispozici sekretariát naší advokátní kanceláře, který bude fungovat dle běžné pracovní doby.",
+    "Děkujeme za pochopení a přejeme klidné prožití nadcházejícího podzimu.",
+    "AKZ"
+  ]
+},
+  {
     title: "Omezený provoz advokátní kanceláře",
     link: "omezeny-provoz",
     date: "6. května 2024",
