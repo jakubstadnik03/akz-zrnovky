@@ -14,9 +14,11 @@ const Kontakt = () => {
         </title>
       </Helmet>
       <Header background={true} title={"Kontaktujte nás"} />
-      <main className="contact-wrapper">
-        <ContactForm />
-        <ContactInfo />
+      <main className=" content-2">
+       <div className="contact-wrapper">
+          <ContactForm />
+          <ContactInfo />
+       </div>
       </main>
       <Footer bottom={true} />
     </>

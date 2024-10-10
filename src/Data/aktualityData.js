@@ -42,6 +42,15 @@ export const aktuality = [
 
     ],
   },
+  ,
+  {
+    title: "Nové kancelářské prostory AKZ Zrnovský & Zrnovská",
+    link: "/fotogalerie-kancelare",
+    date: "20. prosince 2023",
+    shortText:
+      "Vítejte v naší nově oživené kanceláři, kde historie setkává inovaci v právní praxi."
+
+  },
   {
     title: "Oznámení o rekonstrukci a omezeném provozu advokátní kanceláře",
     link: "omezeny-provoz-kancelare",

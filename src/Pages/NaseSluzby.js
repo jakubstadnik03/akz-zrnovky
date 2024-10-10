@@ -28,7 +28,7 @@ const NaseSluzby = () => {
         background={true}
         title={"Specializace naší advokátní kanceláře"}
       />
-      <main className="max-width">
+      <main className="max-width content">
         <h2>Služby v komplexní právní agendě</h2>
         <div className="sluzby-box">
           {services.map((service, index) => (

@@ -12,7 +12,7 @@ const ONas = () => {
         </title>
       </Helmet>
       <Header background={true} title={"O nás"} />
-      <main className="max-width">
+      <main className="max-width content">
         <div
           className="onas-content"
           style={{ marginBottom: "0", textAlign: "center" }}

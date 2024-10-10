@@ -19,7 +19,7 @@ const Details = () => {
         </title>
       </Helmet>
       <Header background={true} title={service ? service.title : "Details"} />
-      <main>
+      <main className="content">
         <div className="details max-width">
           <div className="details-wrapper">
             {service && (

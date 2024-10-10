@@ -7,8 +7,11 @@ import { Helmet } from "react-helmet";
 
 const Aktuality = () => {
   const Box = ({ data }) => {
-    const linkTo = `/aktuality/${data.link}`;
 
+    let linkTo = `/aktuality/${data.link}`;
+    if (data.link === "/fotogalerie-kancelare"){
+      linkTo = data.link
+    }
     return (
       <div className="box-content aktuality-box">
         <Link to={linkTo}>
@@ -37,25 +40,6 @@ const Aktuality = () => {
       <main>
         <div className="aktuality max-width">
           <h3>Přinášíme Vám aktuality z advokátní praxe:</h3>
-
-          <div className="box-content aktuality-box">
-            <Link to="/fotogalerie-kancelare">
-              <h2 className="box-title">
-                Nové kancelářské prostory AKZ Zrnovský & Zrnovská
-              </h2>
-            </Link>
-            <p className="box-short-text">
-              Vítejte v naší nově oživené kanceláři, kde historie setkává
-              inovaci v právní praxi.
-            </p>
-            <Link to="/fotogalerie-kancelare">
-              <button className="btn btn-black btn-aktuality">
-                Přečíst celý článek
-                <span className="arrow-icon arrow-icon-dark"></span>
-              </button>
-            </Link>
-            <span className="box-date">20. prosince 2023</span>
-          </div>
           {aktuality.map((service, index) => (
             <Box key={index} data={service} />
           ))}

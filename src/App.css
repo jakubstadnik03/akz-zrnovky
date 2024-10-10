@@ -15,6 +15,12 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .content {
+    min-height: calc(100vh - 492px); /* 100px je výška footeru, uprav podle potřeby */
+}
+.content-2 {
+  min-height: calc(100vh - 594px); /* 100px je výška footeru, uprav podle potřeby */
+}
 
   
   .main-image::before {
