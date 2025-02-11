@@ -42,7 +42,6 @@ export const aktuality = [
 
     ],
   },
-  ,
   {
     title: "Nové kancelářské prostory AKZ Zrnovský & Zrnovská",
     link: "/fotogalerie-kancelare",
@@ -67,7 +66,6 @@ export const aktuality = [
   },
   {
     title: "Revoluční nález Ústavního soudu: Péče o děti přes vzdálenost",
-    linkTo: "/aktuality/nalez-ustavniho-soudu",
     link: "nalez-ustavniho-soudu",
     date: "22. října 2023",
     shortText:

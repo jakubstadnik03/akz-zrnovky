@@ -5,38 +5,45 @@ import Header from "../Components/Header";
 import { Helmet } from "react-helmet";
 import { saveAs } from "file-saver";
 
-import { aktuality } from "../Data/aktualityData"; // Import the services data from NaseSluzby
+import { aktuality } from "../Data/aktualityData"; 
 
-const AktualityDetils = () => {
+const AktualityDetails = () => { // Opravený název
   const { title } = useParams();
-  const downloadFile = () => {
-    const fileURL = aktualita.downloadFile; // Replace with the correct path to your RTF file
-    saveAs(fileURL, "document.rtf");
-  };
+  console.log(title);
 
-  // Find the service that matches the title parameter
-  const aktualita = aktuality.find((aktuality) => aktuality.link === title);
+  // Najdeme odpovídající aktualitu
+  const aktualita = aktuality.find((aktualita) => aktualita.link === title);
+
+  // Pokud nenajdeme odpovídající aktualitu, zobrazíme chybovou zprávu
+  if (!aktualita) {
+    return <p>Aktualita nenalezena</p>;
+  }
+
+  const downloadFile = () => {
+    if (aktualita.downloadFile) {
+      saveAs(aktualita.downloadFile, "document.rtf");
+    } else {
+      console.error("Soubor nelze stáhnout, chybí URL.");
+    }
+  };
 
   return (
     <>
       <Helmet>
-        <title>
-          {aktualita.title} | AKZ Advokátní kancelář Zrnovský & Zrnovská
-        </title>
+        <title>{aktualita.title} | AKZ Advokátní kancelář Zrnovský & Zrnovská</title>
       </Helmet>
       <Header
         width={true}
         background={true}
-        title={aktualita ? aktualita.title : "Details"}
+        title={aktualita.title}
       />
       <main className="max-width aktualita-content">
-        {aktualita.text.map((aktualita) => {
-          return (
-            <p className="aktualita-text" key={aktualita}>
-              {aktualita}
-            </p>
-          );
-        })}
+        {aktualita.text.map((text, index) => (
+          <p className="aktualita-text" key={index}>
+            {text}
+          </p>
+        ))}
+
         {aktualita.downloadFile && (
           <button
             className="btn btn-black"
@@ -59,4 +66,4 @@ const AktualityDetils = () => {
   );
 };
 
-export default AktualityDetils;
+export default AktualityDetails;
